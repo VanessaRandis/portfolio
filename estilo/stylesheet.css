@@ -51,6 +51,23 @@ body{
   
 }
 
+.choose {
+  text-align: center;
+
+}
+
+h1{
+
+  color:black;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 2;
+  text-transform: uppercase;
+  border:none;
+  margin: 20px;
+  border-radius: 5px;
+
+}
 
 h4 {
   color:black;
