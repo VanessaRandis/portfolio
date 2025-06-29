@@ -1,7 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
 body{
-  background-color: bisque img src="imagens/foto-van.png";
-  background-image: img src="imagens/foto-van.png" top center;
+  background-color: black;
   
+}
+
+#page {
+    box-sizing: border-box;
+    width: 1200px ;
+    padding-top: 30%;
+    padding: 24px;
+    background-color: gray;
+    border-radius: 24px;
+    margin: 50px auto;
 }
 
 .btn-facul {
@@ -16,50 +35,73 @@ body{
 
 
 .btn-translate {
-  color: black;
-  border-color: darkblue;
-  border-style: solid; 
-  border-width: 3px;
-  border-radius: 10px;
+  
   
   background-color: antiquewhite;
-  margin: 50px;
-  box-sizing: 200px;
   cursor: pointer;
-  text-decoration: none;
-  text-align: justify;
-
-
-
+  margin: 50px;
+  border-style: solid; 
+  border-color: black;
+  padding: 10px;
+  text-decoration-line: none;
+  text-transform: uppercase;
+  
+ 
 }
 
 .btn-translate:hover {
-  background-color: #008CBA;
+  background-color: #cde7f0;
   color: white;
 
 
 }
-.lista-conhecimentos {
+
+
+
+.choose {
+  
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: DodgerBlue;
-  background-color: #f1f1f1;
-  margin: 20px;
-  padding: 20px;
-  font-size: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  
+  position: relative;
+  background-color: rgb(77, 108, 109);
+  width: 100%;
+  
+  padding: 0px 10px 24px 24px;
+  margin: 0px auto;
+ 
+
+}
+
+#msg {
+  color: aliceblue;
+  
   
 }
 
-.choose {
-  text-align: center;
-
+.lista-conhecimentos {
+  display: flex;
+  justify-content: space-around;
+  
+  top: 20px;
+  left: 20px;
+  
+  justify-content: space-between;
+  background-color: #c8caca;
+  margin: 20px;
+  padding: 20px 100px 10px 50px;
+  font-size: 20px;
+  
+  
 }
 
 h1{
-
+  margin-top: 24px;
+  margin-bottom: 10px;
   color:black;
-  font-size: 32px;
+  font-size: 40px;
   text-align: center;
   letter-spacing: 2;
   text-transform: uppercase;
@@ -115,12 +157,43 @@ div.mycontainer {
 
 
 footer {
- 
-  border-style: solid;
+  box-sizing: border-box;
+  width: 800px;
+  padding: 24px;
+  background-color: rgb(208, 202, 202);
   border-color: red;
-  margin: 20px;
-  padding: 20px;
+  border-style: solid;
+  border-radius: 24px;
+  margin: 48px auto;
 }
+
+aside {
+  background-color: none;
+  display: flex-center;
+  float: right;
+  justify-content: space-between;
+  position: fixed;
+  width: 130px;
+  height: 475px;
+  bottom: 0px;
+  right: 10px;
+  
+  
+
+
+}
+
+aside figure{
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+
+img {
+  width: 100px;
+}
+
 
 p {
   border-style: none;
